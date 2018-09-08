@@ -1,0 +1,10 @@
+name: stm-bug
+version: 0
+build-type: Simple
+cabal-version: >= 1.10
+
+executable stm-bug
+  main-is: Main.hs
+  build-depends:
+      base
+    , stm == 2.4.5.0
